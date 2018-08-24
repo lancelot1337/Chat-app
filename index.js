@@ -16,5 +16,5 @@ var io = socket(server);
 
 // Event listener
 io.on('connection', (socket) => {
-    console.log('Socket connetion made!', socket.id)
+    console.log('Socket connection made!', socket.id)
 });
