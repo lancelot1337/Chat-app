@@ -10,7 +10,12 @@ const message = document.getElementById('message'),
 //Event emitter
 btn.addEventListener('click', () => {
     socket.emit('chat', {
-        message: message.nodeValue,
+        message: message.value,
         handle: handle.value
     });
+});
+
+//Event listener
+socket.on('chat', (data) =>{
+    output.innerHTML += `<p><strong>${data.handle}:</strong> ${data.message} </p>`;
 });
