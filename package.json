@@ -1,0 +1,19 @@
+{
+  "name": "websocketstut",
+  "version": "1.0.0",
+  "description": "Tut code for WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancelot1337/WebSocketsTut.git"
+  },
+  "author": "lancelot1337",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lancelot1337/WebSocketsTut/issues"
+  },
+  "homepage": "https://github.com/lancelot1337/WebSocketsTut#readme"
+}
