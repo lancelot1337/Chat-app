@@ -1,3 +1,2 @@
-# WebSocketsTut
-Tut code for WebSockets
-
+# Chat App
+Using sockets.io to broadcasts messages
