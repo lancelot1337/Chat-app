@@ -1,2 +1,2 @@
 # Chat App
-Using sockets.io to broadcasts messages
+Using sockets.io to broadcast messages
