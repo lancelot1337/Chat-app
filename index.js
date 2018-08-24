@@ -21,4 +21,8 @@ io.on('connection', (socket) => {
         //All sockets
         io.sockets.emit('chat', data);
     });
+    //broadcast, everyone except the emitter
+    socket.on('typing', (data) => {
+        socket.broadcast.emit('typing', data);
+    });
 });
