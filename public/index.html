@@ -7,10 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WebSocketsTut</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <h1>Hello! This is WebSockets!</h1>
+    <div id="mario-chat">
+        <div id="chat-window">
+            <div id="output">
+
+            </div>
+        </div>
+        <input type="text" placeholder="Handle" id="handle">
+        <input type="text" placeholder="Message" id="message">
+        <button id="send">Send</button>
+    </div>
     <script src="/chat.js"></script>
 </body>
 
