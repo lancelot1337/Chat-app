@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lancelot1337/WebSocketsTut/issues"
   },
-  "homepage": "https://github.com/lancelot1337/WebSocketsTut#readme"
+  "homepage": "https://github.com/lancelot1337/WebSocketsTut#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
