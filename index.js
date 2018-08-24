@@ -16,5 +16,9 @@ var io = socket(server);
 
 // Event listener
 io.on('connection', (socket) => {
-    console.log('Socket connection made!', socket.id)
+    console.log('Socket connection made!', socket.id);
+    socket.on('chat', (data) => {
+        //All sockets
+        io.sockets.emit('chat', data);
+    });
 });
